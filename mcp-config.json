@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "computer-audio-control": {
+      "command": "npx",
+      "args": ["computer-volume-control-mcp"],
+      "env": {}
+    }
+  }
+} 

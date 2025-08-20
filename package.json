@@ -1,0 +1,37 @@
+{
+  "name": "computer-volume-control-mcp",
+  "version": "1.0.7",
+  "description": "Model Context Protocol Server via Cross-Platform (Mac, Windows & Linux) Computer Audio Control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "mcp": "node mcp-server.js"
+  },
+  "keywords": [
+    "mcp",
+    "audio",
+    "volume",
+    "control",
+    "cross-platform",
+    "windows",
+    "macos"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/audio-control-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/audio-control-mcp/issues"
+  },
+  "homepage": "https://github.com/yourusername/audio-control-mcp#readme",
+  "bin": {
+    "computer-volume-control-mcp": "mcp-server.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "loudness": "^0.4.2"
+  }
+}
